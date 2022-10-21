@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <main class="grid place-items-center w-screen h-screen">
+  <main class="grid place-items-center w-full h-full">
     UserHome
   </main>
 </template>

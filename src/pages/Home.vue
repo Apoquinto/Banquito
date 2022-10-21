@@ -1,15 +1,19 @@
 <script setup lang="ts">
+import Header from '../components/Header.vue';
 import SplashScreen from '../components/SplashScreen.vue';
 import { defineAsyncComponent } from 'vue'
+import MenuLayout from "../layouts/MenuLayout.vue"
 
 const UserResume = defineAsyncComponent(() => import('../components/UserResume.vue'))
 </script>
 
 <template>
-  <Suspense>
-    <UserResume/>
-    <template #fallback>
-      <SplashScreen/>
+  <MenuLayout>
+    <template #header>
+      <Header/>
     </template>
-  </Suspense>
+    <template #default>
+      <UserResume/>
+    </template>
+  </MenuLayout>
 </template>
