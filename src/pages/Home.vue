@@ -1,6 +1,10 @@
 <script setup lang="ts">
-import SplashScreen from './SplashScreen.vue';
+import SplashScreen from '../components/SplashScreen.vue';
+import { defineAsyncComponent } from 'vue'
 
+const UserResume = defineAsyncComponent(() =>
+  import('../components/UserResume.vue')
+)
 </script>
 
 <template>
