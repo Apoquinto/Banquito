@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Header from '../components/Header.vue';
-import SplashScreen from '../components/SplashScreen.vue';
 import { defineAsyncComponent } from 'vue'
 import MenuLayout from "../layouts/MenuLayout.vue"
 
