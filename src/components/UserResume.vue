@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import UserHistoryAccordion from './UserHistoryAccordion.vue';
+import UserMovementsDashboard from './UserMovementsDashboard.vue';
 
 const userData = await new Promise((resolve) => {
   setTimeout(() => {
@@ -11,7 +12,7 @@ const userData = await new Promise((resolve) => {
 
 <template>
   <main class="grid place-items-center w-full h-full">
-    UserHome
+    <UserMovementsDashboard/>
   </main>
   <UserHistoryAccordion/>
 </template>
