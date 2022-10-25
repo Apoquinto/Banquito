@@ -1,5 +1,6 @@
 <script setup lang="ts">import { ref } from 'vue';
 import Modal from "../Modal.vue"
+import NewMovementForm from './NewMovementForm.vue';
 
 const isOpen = ref(false);
   
@@ -17,7 +18,7 @@ const toggleModal = () => isOpen.value = !isOpen.value;
       v-show="isOpen"
       :title="'New movement'"
       @close="toggleModal">
-      <div>Hola</div>
+      <NewMovementForm/>
     </Modal>
   </teleport>
 </template>
