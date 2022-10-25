@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import UserHistoryAccordion from './UserHistoryAccordion.vue';
+import UserHistoryAccordion from './MovementsHistory/index.vue';
 import UserMovementsDashboard from './UserMovementsDashboard.vue';
 
 const userData = await new Promise((resolve) => {
