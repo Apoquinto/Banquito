@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import UserStats from './UserStats.vue';
+import RegisterNewMovement from "./RegisterNewMovement/Index.vue";
 </script>
 
 <template>
@@ -7,7 +8,12 @@ import UserStats from './UserStats.vue';
     <!-- Total, Mountly, Weekly report -->
     <UserStats/>
     <!-- Data graph -->
+    <section class="h-full">
+    </section>
     <!-- Register new movent-->
+    <section class="w-full grid place-content-center">
+      <RegisterNewMovement/>
+    </section>
   </section>
 </template>
 
