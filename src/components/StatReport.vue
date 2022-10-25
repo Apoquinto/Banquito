@@ -25,7 +25,7 @@ const formatAmount = computed(() => {
 </script>
 
 <template>
-  <div class="bg-slate-700 text-white border border-slate-800 w-full h-full flex px-10 py-2 rounded-xl">
+  <div class="bg-slate-700 text-white border border-slate-800 w-full h-full flex px-10 py-2 rounded-md">
     <div class="w-full h-full flex flex-col">
       <h3 class="text-2xl font-bold">{{ formatAmount }}</h3>
       <span>{{ label }}</span>
