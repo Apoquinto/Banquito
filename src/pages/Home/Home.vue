@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Header from '../components/Header.vue';
 import { defineAsyncComponent } from 'vue'
-import MenuLayout from "../layouts/MenuLayout.vue"
+import Header from '../../components/Header.vue';
+import MenuLayout from "../../layouts/MenuLayout.vue"
 
-const UserResume = defineAsyncComponent(() => import('../components/UserResume.vue'))
+const UserResume = defineAsyncComponent(() => import('../../components/UserResume.vue'))
 </script>
 
 <template>
