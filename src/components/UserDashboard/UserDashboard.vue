@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import UserStats from './UserStats.vue';
-import RegisterNewMovement from "./RegisterNewMovement/Index.vue";
+import RegisterNewMovement from "../RegisterNewMovement/Index.vue";
 </script>
 
 <template>

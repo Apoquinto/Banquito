@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import UserHistoryAccordion from './MovementsHistory/index.vue';
-import UserMovementsDashboard from './UserMovementsDashboard.vue';
+import UserHistoryAccordion from '../MovementsHistory/index.vue';
+import UserMovementsDashboard from '../UserDashboard/UserDashboard.vue';
 
 const userData = await new Promise((resolve) => {
   setTimeout(() => {

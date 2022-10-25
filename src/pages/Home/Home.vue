@@ -3,7 +3,7 @@ import { defineAsyncComponent } from 'vue'
 import Header from '../../components/Header.vue';
 import MenuLayout from "../../layouts/MenuLayout.vue"
 
-const UserResume = defineAsyncComponent(() => import('../../components/UserResume.vue'))
+const UserResume = defineAsyncComponent(() => import('../../components/UserDashboard/Index.vue'))
 </script>
 
 <template>
