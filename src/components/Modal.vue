@@ -11,8 +11,8 @@ const close = () => emit("close");
 </script>
 
 <template>
-    <div class="overflow-y-auto overflow-x-hidden fixed top-0 right-0 z-50 w-full h-full bg-slate-900/25">
-        <div class="h-full w-screen grid place-content-center">
+    <div class="overflow-y-auto overflow-x-hidden fixed top-0 right-0 md:inset-0 z-50 w-full h-full bg-slate-900/25">
+        <div class="h-full w-full grid place-content-center">
             <div class="modal bg-white border rounded px-3 py-2">
                 <div class="head flex justify-between items-center">
                     <h1 class="font-medium">{{ title }}</h1>
