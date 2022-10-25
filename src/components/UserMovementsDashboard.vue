@@ -3,7 +3,7 @@ import UserStats from './UserStats.vue';
 </script>
 
 <template>
-  <section class="layout">
+  <section class="layout container">
     <!-- Total, Mountly, Weekly report -->
     <UserStats/>
     <!-- Data graph -->
